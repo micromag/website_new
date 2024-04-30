@@ -60,7 +60,7 @@
                         <div class="mt-6">
                           <nav class="grid gap-y-8">
         
-                            <NuxtLink to="/Contribute" class="text-base font-medium text-white hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                            <NuxtLink to="/Magazines" class="text-base font-medium text-white hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                               Magazines
                             </NuxtLink>
                             <NuxtLink to="/Contribute" class="text-base font-medium text-white hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
