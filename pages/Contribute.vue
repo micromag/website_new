@@ -4,7 +4,7 @@
   
         <!-- Header Image -->
         <div class="relative isolate overflow-hidden pt-14">
-            <img src="/cover.jpg" alt="micro:mag News, Reviews, Projects and Makes" class="absolute inset-0 -z-5 h-1/2 w-full object-cover" />
+            <img src="/cover.jpg" alt="micro:mag News, Reviews, Projects and Makes" class="absolute inset-0 -z-5 h-1/6 w-full object-cover" />
   
             <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             </div>
