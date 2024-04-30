@@ -49,12 +49,11 @@
         <Footer />
     </div>
 </template>
-<!--<script lang="ts">
-  import Vue from "vue";
-  import Header from "~/components/Header.vue";
-  import Footer from "~/components/Footer.vue";
+<script lang="ts">
+  /*import Header from "~/components/Header.vue";
+  import Footer from "~/components/Footer.vue";*/
 
-  export default Vue.extend({
+  export default {
     async asyncData({ app }) {
             const res = await app.$storyapi.get('cdn/stories', {
                 starts_with: 'articles/',
@@ -69,9 +68,9 @@
 
             return { articles } 
         },
-    components: {
+    /*components: {
       Header,
-      Footer
-    }
-  });
-</script>-->
+      Footer,
+    }*/
+  };
+</script>

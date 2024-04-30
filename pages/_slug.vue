@@ -56,7 +56,7 @@
         </div>
       </div>
     </div>
-    <!-- Neswletter form -->
+    <!-- Neswletter form
     <div class="bg-white" style="background-color:#A1C4B5">
       <div class="px-6 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
         <div class="px-6 py-6 bg-teal-600 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
@@ -70,7 +70,7 @@
             </p>
           </div>
       
-          <!--<div class="mt-8 sm:w-full sm:max-w-md xl:mt-0 xl:ml-8">
+          <div class="mt-8 sm:w-full sm:max-w-md xl:mt-0 xl:ml-8">
 
             
             <form class="md:flex" name="Newsletter" netlify>
@@ -102,10 +102,10 @@
                 Sign up
               </button>
             </form>
-          </div>-->
+          </div>
         </div>
       </div>
-    </div>
+    </div>-->
 
     <!-- Footer -->
     <Footer />
@@ -113,9 +113,8 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
 
-export default Vue.extend({
+export default {
   async asyncData({ app, route }) {
     // Get the slug from the route
     const slug = route.params.slug
@@ -133,5 +132,5 @@ export default Vue.extend({
 
     return { article, author: article.content.author }
   },
-})
+}
 </script>
