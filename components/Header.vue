@@ -5,7 +5,7 @@
        <div class="flex justify-start lg:w-0 lg:flex-1">
          <NuxtLink to="/">
            <span class="sr-only">Workflow</span>
-           <img class="h-8 w-auto sm:h-20" src="/logo.png" alt="Logo">
+           <img class="h-8 w-auto sm:h-20" src="/public/logo.png" alt="Logo">
          </NuxtLink>
        </div>
        
@@ -39,7 +39,7 @@
          <div class="pt-5 pb-6 px-5">
            <div class="flex items-center justify-between">
              <NuxtLink to="/">
-               <img class="h-8 w-auto sm:h-10" src="/Logo.png" alt="Logo">
+               <img class="h-8 w-auto sm:h-10" src="/public/Logo.png" alt="Logo">
              </NuxtLink>
              <div class="-mr-2">
                <button type="button" @click="isOpen = !isOpen" class="bg-grey-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
