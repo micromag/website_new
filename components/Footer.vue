@@ -76,7 +76,7 @@
                 </a> -->
 
                 <a
-                href="mailto:kerry@raspikidd.com"
+                href="mailto:info@raspikidd.com"
                 target="_blank"
                 class="text-gray-400 hover:text-gray-500"
                 >

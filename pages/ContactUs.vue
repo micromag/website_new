@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-900 px-6 py-32 lg:px-8">
+    <div class="bg-gray-900">
         <Header />
         <div class="mx-auto max-w-3xl text-base leading-7 text-white">
             <h1 class="mt-2 text-4xl font-bold tracking-tight text-blue-400 sm:text-5xl">Contact Us</h1>

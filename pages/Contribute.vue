@@ -1,8 +1,6 @@
 <template>
     <div class="bg-gray-900">
         <Header />
-  
-        <!-- Header Image -->
         <div class="relative isolate overflow-hidden pt-3">
 
             <!--Content-->
