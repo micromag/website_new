@@ -3,11 +3,7 @@
         <Header />
   
         <!-- Header Image -->
-        <div class="relative isolate overflow-hidden pt-14">
-            <img src="/cover.jpg" alt="micro:mag News, Reviews, Projects and Makes" class="absolute inset-0 -z-5 h-1/6 w-full object-cover" />
-  
-            <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-            </div>
+        <div class="relative isolate overflow-hidden pt-3">
 
             <!--Content-->
             <div class="bg-gray-900 px-6 py-32 lg:px-8">
@@ -154,7 +150,10 @@
                         </div>
                         <p class="text-2xl mt-8 text-white">
                             <strong class="font-semibold text-blue-400">Questions?</strong>
-                            Contact us using the contact page.
+                            Contact us using the 
+                            <NuxtLink to="/ContactUs" class="text-2xl font-medium text-white hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                                contact page.
+                            </NuxtLink>
                         </p>
                     </div>
                 </div>
