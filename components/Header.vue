@@ -5,7 +5,7 @@
        <div class="flex justify-start lg:w-0 lg:flex-1">
          <NuxtLink to="/">
            <span class="sr-only">Workflow</span>
-           <img class="h-8 w-auto sm:h-20" src="/public/logo.png" alt="Logo">
+           <img class="h-8 w-auto sm:h-20" src="/public/Logo.png" alt="Logo">
          </NuxtLink>
        </div>
        
