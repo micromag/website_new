@@ -1,24 +1,22 @@
 <template>
     <div class="bg-gray-900">
         <Header />
-        <div class="relative isolate overflow-hidden pt-3">
-
             <!--Content-->
-            <div class="bg-gray-900 px-6 py-32 lg:px-8">
-                <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-                    <h1 class="mt-2 text-4xl font-bold tracking-tight text-blue-400 sm:text-5xl"> 
+            <div class="mx-auto max-w-3xl text-base leading-7 text-white">
+                <div class="mx-auto max-w-3xl text-base leading-7">
+                    <h1 class="mt-2 text-4xl font-bold tracking-tight text-center text-blue-400 sm:text-5xl"> 
                         Contribute to Our Magazine! 
                     </h1>
-                    <p class="mt-6 text-xl leading-8 text-white">
+                    <p class="mt-6 text-xl leading-8">
                         Are you passionate about education, technology, and fostering creativity in children and 
                         educators alike? If so, we invite you to contribute to micro:mag, a hub for all things BBC 
                         micro:bit!
                     </p>
-                    <div class="mt-10 max-w-2xl">
-                        <h2 class="mt-2 text-2xl font-bold tracking-tight text-blue-400 sm:text-3xl">
+                    <div>
+                        <h2 class="mt-6 text-2xl font-bold tracking-tight text-blue-400 sm:text-3xl">
                             About Us
                         </h2>
-                        <p class="mt-6 text-xl leading-8 text-white">
+                        <p class="mt-6 text-xl leading-8">
                             At micro:mag, we're dedicated to providing valuable resources and engaging content for 
                             the EdTech community, including students, teachers, and hobbyists. Contributing to 
                             micro:mag is a fantastic opportunity to share your voice, showcase your expertise, and 
@@ -28,11 +26,11 @@
                         </p>
                     </div>
 
-                    <div class="mt-10 max-w-2xl">
-                        <h2 class="mt-2 text-2xl font-bold tracking-tight text-blue-400 sm:text-3xl">
+                    <div class="mt-10">
+                        <h2 class="text-2xl font-bold tracking-tight text-blue-400 sm:text-3xl">
                             Why Contribute?
                         </h2>
-                        <ul class="mt-8 max-w-xl space-y-8 text-xl text-white">
+                        <ul class="mt-6 space-y-8 text-xl">
                             <li class="flex gap-x-3">
                                 <span>
                                     <strong class="font-semibold text-blue-400">Impact:</strong> 
@@ -57,14 +55,14 @@
                         </ul>
                     </div>
             
-                    <div class="mt-10 max-w-2xl">
-                        <h2 class="mt-2 text-2xl font-bold tracking-tight text-blue-400 sm:text-3xl">
+                    <div class="mt-10">
+                        <h2 class="text-2xl font-bold tracking-tight text-blue-400 sm:text-3xl">
                             What We're Looking For
                         </h2>
-                        <p class="mt-6 text-xl leading-8 text-white">
+                        <p class="mt-6 text-xl leading-8">
                             We welcome contributions in various formats, including:
                         </p>
-                        <ul class="mt-8 max-w-xl space-y-8 text-xl text-white">
+                        <ul class="mt-8 space-y-8 text-xl">
                             <li class="flex gap-x-3">
                                 <span>
                                     <strong class="font-semibold text-blue-400">News:</strong> 
@@ -94,11 +92,11 @@
                         </ul>
                     </div>
                 
-                    <div class="mt-10 max-w-2xl">
-                        <h2 class="mt-2 text-2xl font-bold tracking-tight text-blue-400 sm:text-3xl">
+                    <div class="mt-10">
+                        <h2 class="text-2xl font-bold tracking-tight text-blue-400 sm:text-3xl">
                             Submission Guidelines
                         </h2>
-                        <ul class="mt-8 max-w-xl space-y-8 text-xl text-white">
+                        <ul class="mt-8 space-y-8 text-xl">
                             <li class="flex gap-x-3">
                                 <span>
                                     <strong class="font-semibold text-blue-400">Submission Guidelines:</strong> 
@@ -130,15 +128,15 @@
                         </ul>
                     </div>
                 
-                    <div class="mt-16 max-w-2xl">
-                        <h2 class="mt-2 text-2xl font-bold tracking-tight text-blue-400 sm:text-3xl">
+                    <div class="mt-10">
+                        <h2 class="text-2xl font-bold tracking-tight text-blue-400 sm:text-3xl">
                             Join Us Today
                         </h2>
-                        <p class="mt-6 text-white">
+                        <p class="mt-6 text-xl leading-8">
                             So, what are you waiting for? Get your creative juices flowing and start writing. We're excited to see what you'll bring to the 
                             table!
                         </p>
-                        <p class="mt-8 text-white">
+                        <p class="mt-8 text-xl leading-8">
                             Get in touch with us today and let's create something amazing together!
                         </p>
                         <div class="mt-10 flex">
@@ -146,16 +144,15 @@
                                 Submit an Article
                             </a>
                         </div>
-                        <p class="text-2xl mt-8 text-white">
+                        <p class="text-2xl mt-8">
                             <strong class="font-semibold text-blue-400">Questions?</strong>
                             Contact us using the 
-                            <NuxtLink to="/ContactUs" class="text-2xl font-medium text-white hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                            <NuxtLink to="/ContactUs" class="text-2xl font-medium text-white hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                                 contact page.
                             </NuxtLink>
                         </p>
                     </div>
                 </div>
-            </div>
         </div>
         <Footer />
     </div>

@@ -2,7 +2,7 @@
     <div class="bg-gray-900">
         <Header />
         <div class="mx-auto max-w-3xl text-base leading-7 text-white">
-            <h1 class="mt-2 text-4xl font-bold tracking-tight text-blue-400 sm:text-5xl">Contact Us</h1>
+            <h1 class="mt-2 text-4xl font-bold tracking-tight text-center text-blue-400 sm:text-5xl">Contact Us</h1>
             <p class="mt-6 text-xl leading-8">
                 Have a question? Fill in the form below and we will aim to get back to you within 24 hours.
             </p>

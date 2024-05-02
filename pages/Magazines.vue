@@ -3,15 +3,12 @@
       <!-- Header -->
       <Header />
   
-      <main class="relative isolate">
   
         <!-- Header section -->
-        <div class="px-6 pt-3 lg:px-8">
-          <div class="mx-auto max-w-2xl text-center sm:pt-40">
-            <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Magazine Issues</h2>
+          <div class="mx-auto max-w-3xl text-center text-base leading-7">
+            <h1 class="text-4xl font-bold tracking-tight text-blue-400 sm:text-6xl">Magazine Issues</h1>
             <p class="mt-6 text-lg leading-8 text-gray-300">Here you will find all the past issues to download as PDF</p>
           </div>
-        </div>
   
         <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <ul role="list" class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4">
@@ -90,7 +87,6 @@
             </li>
           </ul>
         </div>
-      </main>
   
       <!-- Footer -->
       <Footer />
