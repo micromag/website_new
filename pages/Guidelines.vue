@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-900 px-6 py-32 lg:px-8">
+    <div class="bg-gray-900">
         <Header />
         <div class="mx-auto max-w-3xl text-base leading-7 text-white">
             <h1 class="mt-2 text-4xl font-bold tracking-tight text-blue-400 sm:text-5xl">Guidelines</h1>
@@ -82,17 +82,3 @@
         <Footer />
     </div>
 </template>
-  
-  <!--<script lang="ts">
-  import Vue from "vue";
-  import Header from "~/components/Header.vue";
-  import Footer from "~/components/Footer.vue";
-  
-  export default Vue.extend({
-    
-    components: {
-      Header,
-      Footer
-    }
-  });
-  </script>-->

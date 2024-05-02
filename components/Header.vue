@@ -4,7 +4,7 @@
      <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
        <div class="flex justify-start lg:w-0 lg:flex-1">
          <NuxtLink to="/">
-           <span class="sr-only">Workflow</span>
+           <span class="sr-only">micro:mag</span>
            <img class="h-8 w-auto sm:h-20" src="/public/Logo.png" alt="Logo">
          </NuxtLink>
        </div>
@@ -16,7 +16,7 @@
        </div>
 
        <!-- Desktop Menu -->
-       <nav class="hidden md:flex space-x-10">
+       <nav class="hidden md:flex items-center space-x-10">
 
          <NuxtLink to="/Magazines" class="text-base font-medium text-white hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
            Magazines
