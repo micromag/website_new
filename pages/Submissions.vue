@@ -1,70 +1,22 @@
 <template>
-    <div class="bg-gray-900 px-6 py-32 lg:px-8">
+    <div class="bg-gray-900">
         <Header />
         <div class="mx-auto max-w-3xl text-base leading-7 text-white">
-            <h1 class="mt-2 text-4xl font-bold tracking-tight text-blue-400 sm:text-5xl">Submissions Form</h1>
-            <form name="articles" method="POST" data-netlify="true">
+            <h1 class="mt-2 text-4xl font-bold tracking-tight text-blue-400 sm:text-5xl">
+                Submissions Form
+            </h1>
+            <form 
+                name="articles" 
+                method="POST" 
+                data-netlify="true"
+                data-netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="articles" />
+                <p hidden>
+		            <label>Don’t fill this out: <input name="bot-field" /></label>
+	            </p>
                 <div class="space-y-12">
-
-                    <!--Profile Info-->
-                    <div class="border-b border-white/10 pb-12">
-                        <h2 class="mt-10 text-2xl text-base font-semibold leading-7 text-blue-400 sm:text-3xl">
-                            Profile
-                        </h2>
-                        <p class="mt-1 text-sm leading-6 text-white">
-                            This information will be displayed publicly so be careful what you share.
-                        </p>
-
-                        <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
-                            <div class="sm:col-span-4">
-                                <label for="username" class="block text-sm font-medium leading-6 text-white">
-                                    Username
-                                </label>
-                                <div class="mt-2">
-                                    <div class="flex rounded-md bg-white/5 ring-1 ring-inset ring-white/10 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500">
-                                        <input type="text" name="username" id="username" autocomplete="username" class="flex-1 border-0 bg-transparent py-1.5 pl-1 text-white focus:ring-0 sm:text-sm sm:leading-6" placeholder="username" />
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-span-full">
-                                <label for="about" class="block text-sm font-medium leading-6 text-white">
-                                    About
-                                </label>
-                                <div class="mt-2">
-                                    <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
-                                </div>
-                                <p class="mt-3 text-sm leading-6 text-white">
-                                    Write a few sentences about yourself.
-                                </p>
-                            </div>
-
-                            <div class="col-span-full">
-                                <label for="profile-photo" class="block text-sm font-medium leading-6 text-white">
-                                    Profile photo
-                                </label>
-                                <div class="mt-2 flex justify-center rounded-lg border border-dashed border-white/25 px-6 py-10">
-                                    <div class="text-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                        </svg>
-
-                                        <div class="mt-4 flex text-sm leading-6 text-gray-400">
-                                            <label for="photo-upload" class="relative cursor-pointer rounded-md bg-gray-900 font-semibold text-white focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 focus-within:ring-offset-gray-900 hover:text-indigo-500">
-                                                <span>Upload a file</span>
-                                                <input id="photo-upload" name="photo-upload" type="file" class="sr-only" />
-                                            </label>
-                                            <p class="pl-1">or drag and drop</p>
-                                        </div>
-                                        <p class="text-xs leading-5 text-gray-400">PNG, JPG, GIF up to 8MB</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                     <!--Personal Info-->
-                    <div class="border-b border-white/10 pb-12">
+                    <div class="mt-10 border-b border-white/10 pb-12">
                         <h2 class="text-2xl text-base font-semibold leading-7 text-blue-400 sm:text-3xl">
                             Personal Information
                         </h2>
@@ -98,6 +50,39 @@
                                 </label>
                                 <div class="mt-2">
                                     <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
+                                </div>
+                            </div>
+                            <div class="col-span-full">
+                                <label for="about" class="block text-sm font-medium leading-6 text-white">
+                                    About
+                                </label>
+                                <div class="mt-2">
+                                    <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
+                                </div>
+                                <p class="mt-3 text-sm leading-6 text-white">
+                                    Write a few sentences about yourself.
+                                </p>
+                            </div>
+
+                            <div class="col-span-full">
+                                <label for="profile-photo" class="block text-sm font-medium leading-6 text-white">
+                                    Profile photo
+                                </label>
+                                <div class="mt-2 flex justify-center rounded-lg border border-dashed border-white/25 px-6 py-10">
+                                    <div class="text-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                        </svg>
+
+                                        <div class="mt-4 flex text-sm leading-6 text-gray-400">
+                                            <label for="photo-upload" class="relative cursor-pointer rounded-md bg-gray-900 font-semibold text-white focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 focus-within:ring-offset-gray-900 hover:text-indigo-500">
+                                                <span>Upload a file</span>
+                                                <input id="photo-upload" name="photo-upload" type="file" class="sr-only" />
+                                            </label>
+                                            <p class="pl-1">or drag and drop</p>
+                                        </div>
+                                        <p class="text-xs leading-5 text-gray-400">PNG, JPG, GIF up to 8MB</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -215,17 +200,3 @@
         <Footer />
     </div>
 </template>
-  
-<!--<script lang="ts">
-  import Vue from "vue";
-  import Header from "~/components/Header.vue";
-  import Footer from "~/components/Footer.vue";
-  
-  export default Vue.extend({
-    
-    components: {
-      Header,
-      Footer
-    }
-  });
-</script>-->
