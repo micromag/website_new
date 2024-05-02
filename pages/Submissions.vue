@@ -31,7 +31,7 @@
                                     First name
                                 </label>
                                 <div class="mt-2">
-                                    <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
+                                    <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
                                 </div>
                             </div>
 
@@ -40,7 +40,7 @@
                                     Last name
                                 </label>
                                 <div class="mt-2">
-                                    <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
+                                    <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
                                 </div>
                             </div>
 
@@ -49,7 +49,7 @@
                                     Email address
                                 </label>
                                 <div class="mt-2">
-                                    <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
+                                    <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
                                 </div>
                             </div>
                             <div class="col-span-full">
@@ -57,7 +57,7 @@
                                     About
                                 </label>
                                 <div class="mt-2">
-                                    <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
+                                    <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
                                 </div>
                                 <p class="mt-3 text-sm leading-6 text-white">
                                     Write a few sentences about yourself.
@@ -103,7 +103,7 @@
                                 </label>
                                 <div class="mt-2">
                                     <div class="flex rounded-md bg-white/5 ring-1 ring-inset ring-white/10 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500">
-                                        <input type="text" name="article-name" id="article-name" autocomplete="articlename" class="flex-1 border-0 bg-white py-1.5 pl-1 text-gray-900 focus:ring-0 sm:text-sm sm:leading-6" placeholder="Here is an awesome micro:bit project" />
+                                        <input type="text" name="article-name" id="article-name" autocomplete="articlename" class="flex-1 border-0 bg-white py-1.5 pl-1 text-white focus:ring-0 sm:text-sm sm:leading-6" placeholder="Here is an awesome micro:bit project" />
                                     </div>
                                 </div>
                             </div>
@@ -124,7 +124,7 @@
                                     Article Description
                                 </label>
                                 <div class="mt-2">
-                                    <textarea id="description" name="description" rows="3" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
+                                    <textarea id="description" name="description" rows="3" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
                                 </div>
                                 <p class="mt-3 text-sm leading-6 text-white">
                                     Write a few sentences about your article. This will be displayed on the article card.
