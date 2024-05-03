@@ -10,10 +10,12 @@
                 method="POST" 
                 data-netlify="true"
                 data-netlify-honeypot="bot-field">
+                
                 <input type="hidden" name="form-name" value="articles" />
                 <p hidden>
 		            <label>Don’t fill this out: <input name="bot-field" /></label>
 	            </p>
+                
                 <div class="space-y-12">
                     <!--Personal Info-->
                     <div class="mt-10 border-b border-white/10 pb-12">
@@ -75,11 +77,11 @@
                                         </svg>
 
                                         <div class="mt-4 flex text-sm leading-6 text-gray-400">
-                                            <label for="photo-upload" class="relative cursor-pointer rounded-md bg-gray-900 font-semibold text-white focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 focus-within:ring-offset-gray-900 hover:text-indigo-500">
-                                                <span>Upload a file</span>
-                                                <input id="photo-upload" name="photo-upload" type="file" class="sr-only" />
+                                            <label for="photo-upload" class="relative cursor-pointer rounded-md bg-gray-900 font-semibold text-white focus-within:outline-none">
+                                                <span class="px-4">Upload a file</span>
+                                                <!--<input id="photo-upload" name="photo-upload" type="file" class="sr-only" />-->
+                                                <input name="photo-upload" type="file"/>
                                             </label>
-                                            <p class="pl-1">or drag and drop</p>
                                         </div>
                                         <p class="text-xs leading-5 text-gray-400">PNG, JPG, GIF up to 8MB</p>
                                     </div>
@@ -103,7 +105,7 @@
                                 </label>
                                 <div class="mt-2">
                                     <div class="flex rounded-md bg-white/5 ring-1 ring-inset ring-white/10 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500">
-                                        <input type="text" name="article-name" id="article-name" autocomplete="articlename" class="flex-1 border-0 bg-white py-1.5 pl-1 text-white focus:ring-0 sm:text-sm sm:leading-6" placeholder="Here is an awesome micro:bit project" />
+                                        <input type="text" name="article-name" id="article-name" autocomplete="articlename" class="flex-1 border-0 bg-white py-1.5 pl-1 text-black focus:ring-0 sm:text-sm sm:leading-6" placeholder="Here is an awesome micro:bit project" />
                                     </div>
                                 </div>
                             </div>
