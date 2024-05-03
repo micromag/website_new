@@ -33,7 +33,7 @@
                                     First name
                                 </label>
                                 <div class="mt-2">
-                                    <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
+                                    <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-blue-500 sm:text-sm sm:leading-6 px-2" />
                                 </div>
                             </div>
 
@@ -42,7 +42,7 @@
                                     Last name
                                 </label>
                                 <div class="mt-2">
-                                    <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
+                                    <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="px-2 block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-blue-500 sm:text-sm sm:leading-6" />
                                 </div>
                             </div>
 
@@ -51,15 +51,16 @@
                                     Email address
                                 </label>
                                 <div class="mt-2">
-                                    <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
+                                    <input id="email" name="email" type="email" autocomplete="email" class="px-2 block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-blue-500 sm:text-sm sm:leading-6" />
                                 </div>
                             </div>
+                            
                             <div class="col-span-full">
                                 <label for="about" class="block text-sm font-medium leading-6 text-white">
                                     About
                                 </label>
                                 <div class="mt-2">
-                                    <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
+                                    <textarea id="about" name="about" rows="3" class="px-2 block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-blue-500 sm:text-sm sm:leading-6" />
                                 </div>
                                 <p class="mt-3 text-sm leading-6 text-white">
                                     Write a few sentences about yourself.
@@ -79,7 +80,6 @@
                                         <div class="mt-4 flex text-sm leading-6 text-gray-400">
                                             <label for="photo-upload" class="relative cursor-pointer rounded-md bg-gray-900 font-semibold text-white focus-within:outline-none">
                                                 <span class="px-4">Upload a file</span>
-                                                <!--<input id="photo-upload" name="photo-upload" type="file" class="sr-only" />-->
                                                 <input name="photo-upload" type="file"/>
                                             </label>
                                         </div>
@@ -104,7 +104,7 @@
                                     Article Name
                                 </label>
                                 <div class="mt-2">
-                                    <div class="flex rounded-md bg-white/5 ring-1 ring-inset ring-white/10 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500">
+                                    <div class="flex rounded-md bg-white/5 ring-1 ring-inset ring-white/10 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500">
                                         <input type="text" name="article-name" id="article-name" autocomplete="articlename" class="flex-1 border-0 bg-white py-1.5 pl-1 text-black focus:ring-0 sm:text-sm sm:leading-6" placeholder="Here is an awesome micro:bit project" />
                                     </div>
                                 </div>
@@ -114,7 +114,7 @@
                                 <label for="article-type" class="block text-sm font-medium leading-6 text-white">
                                     Article Type
                                 </label>
-                                <select id="article-type" name="article-type" class="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                                <select id="article-type" name="article-type" class="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-blue-500 sm:text-sm sm:leading-6">
                                     <option>News</option>
                                     <option selected="">Make</option>
                                     <option>Review</option>
@@ -126,7 +126,7 @@
                                     Article Description
                                 </label>
                                 <div class="mt-2">
-                                    <textarea id="description" name="description" rows="3" class="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
+                                    <textarea id="description" name="description" rows="3" class="px-2  block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-blue-500 sm:text-sm sm:leading-6" />
                                 </div>
                                 <p class="mt-3 text-sm leading-6 text-white">
                                     Write a few sentences about your article. This will be displayed on the article card.
@@ -144,11 +144,10 @@
                                         </svg>
 
                                         <div class="mt-4 flex text-sm leading-6 text-gray-400">
-                                            <label for="cover-upload" class="relative cursor-pointer rounded-md bg-gray-900 font-semibold text-white focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 focus-within:ring-offset-gray-900 hover:text-indigo-500">
-                                                <span>Upload a file</span>
-                                                <input id="cover-upload" name="cover-upload" type="file" class="sr-only" />
+                                            <label for="cover-upload" class="relative cursor-pointer rounded-md bg-gray-900 font-semibold text-white focus-within:outline-none">
+                                                <span class="px-4">Upload a file</span>
+                                                <input name="cover-upload" type="file"/>
                                             </label>
-                                            <p class="pl-1">or drag and drop</p>
                                         </div>
                                         <p class="text-xs leading-5 text-gray-400">PNG, JPG, GIF up to 8MB</p>
                                     </div>
@@ -166,11 +165,10 @@
                                         </svg>
 
                                         <div class="mt-4 flex text-sm leading-6 text-gray-400">
-                                            <label for="article-upload" class="relative cursor-pointer rounded-md bg-gray-900 font-semibold text-white focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 focus-within:ring-offset-gray-900 hover:text-indigo-500">
-                                                <span>Upload a file</span>
-                                                <input id="article-upload" name="article-upload" type="file" class="sr-only" />
+                                            <label for="article-upload" class="relative cursor-pointer rounded-md bg-gray-900 font-semibold text-white focus-within:outline-none">
+                                                <span class="px-4">Upload a file</span>
+                                                <input name="article-upload" type="file"/>
                                             </label>
-                                            <p class="pl-1">or drag and drop</p>
                                         </div>
                                         <p class="text-xs leading-5 text-gray-400">TXT, MD up to 8MB</p>
                                     </div>
