@@ -25,8 +25,19 @@
           </div>
         
           <div class="grid max-w-lg gap-5 mx-auto mt-12 lg:grid-cols-3 lg:max-w-none">
-            <ArticleCard
+            <!--<ArticleCard
               v-for="article in articles"
+              :key="article.content.title"
+              :type="article.content.type"
+              :title="article.content.title"
+              :description="article.content.description"
+              :slug="`/${article.slug}`"
+              :author="article.content.author"
+              :image="article.content.image.filename"
+              :date="article.content.date.toLocaleDateString()"
+            />-->
+            <ArticleCard
+              v-for="article in blok.articles"
               :key="article.content.title"
               :type="article.content.type"
               :title="article.content.title"
@@ -69,3 +80,16 @@
     }*/
   };
 </script>-->
+<script setup>
+defineProps({ blok: Object })
+ 
+const articles = ref(null)
+const storyblokApi = useStoryblokApi()
+const { data } = await storyblokApi.get('cdn/stories', {
+  version: 'draft',
+  starts_with: 'articles/',
+  is_startpage: false,
+})
+
+articles.value = data.stories
+</script>

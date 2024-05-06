@@ -1,4 +1,4 @@
-<template>
+<!--<template>
   <div class="font-sans">
     <div class="relative px-4 pt-6 sm:px-6 lg:px-8">
       <Header />
@@ -56,7 +56,7 @@
         </div>
       </div>
     </div>
-    <!-- Neswletter form
+     Neswletter form
     <div class="bg-white" style="background-color:#A1C4B5">
       <div class="px-6 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
         <div class="px-6 py-6 bg-teal-600 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
@@ -105,9 +105,9 @@
           </div>
         </div>
       </div>
-    </div>-->
+    </div>
 
-    <!-- Footer -->
+     Footer 
     <Footer />
   </div>
 </template>
@@ -133,4 +133,24 @@ export default {
     return { article, author: article.content.author }
   },
 }
+</script> -->
+<script setup>
+let { slug } = useRoute().params
+
+const resolveRelations = ['articles.articles']
+
+const story = await useAsyncStoryblok(
+  slug && slug.length > 0 ? slug.join('/') : 'home',
+  {
+    version: 'draft',
+    resolve_relations: resolveRelations,
+  },
+  {
+    resolveRelations,
+  }
+)
 </script>
+
+<template>
+  <StoryblokComponent v-if="story" :blok="story.content" />
+</template>

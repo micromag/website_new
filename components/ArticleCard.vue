@@ -47,7 +47,7 @@
   </NuxtLink>
 </template>
 
-<script lang="ts">
+<!--<script lang="ts">
 export default {
   props: {
     type: String,
@@ -59,4 +59,16 @@ export default {
     image: String,
   },
 }
+</script> -->
+<script setup>
+defineProps({ 
+  article: Object, 
+  type: String,
+    title: String,
+    slug: String,
+    description: String,
+    author: Object,
+    date: String,
+    image: String,
+   })
 </script>
